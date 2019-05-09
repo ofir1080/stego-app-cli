@@ -32,5 +32,4 @@ if __name__ == "__main__":
                  "tortor neque cursus nulla, sit amet dictum neque lorem ac nisl. Morbi sit amet iaculis dolor. Phasellus"
                  "nec tempus eros, vel porta erat.")
     inject(image, msg)
-    print("stage")
     image.create_image()

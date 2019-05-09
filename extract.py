@@ -23,6 +23,6 @@ def convert_bits_to_txt(bit_list):
     char_list = np.array([])
     for i in range(0, bit_list.size, 8):
         # iterates every 8th bit
-        byte = int(''.join(bit_list[i:i + 8]), 2)   # takes 8 bits and convert to base 2 nubmer
+        byte = int(''.join(bit_list[i:i + 8]), 2)   # converts every 8 bits to base-2 number
         char_list = np.append(char_list, chr(byte)) # convert byte to char using ASCII and appends to list of chars
     return ''.join(char_list)
