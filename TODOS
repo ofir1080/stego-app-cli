@@ -1,0 +1,12 @@
+-> EMCRYTP <-
+
+- take an image
+- take a text
+- convert txt to an array of bits
+- set bits in image
+
+-> DECRYPT <-
+
+- take an image
+- for every pixel take the LSB to an array
+- convert array of bits to a text file
