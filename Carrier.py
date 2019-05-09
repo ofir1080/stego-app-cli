@@ -9,7 +9,7 @@ class Carrier:
         self.name = os.path.basename(image_path)
         image = Image.open(image_path)
         self.mat = np.array(image)[..., :3]
-        print(self.mat.shape)
+        # print(self.mat.shape)
         image.close()
         self.height = self.mat.shape[0]
         self.width = self.mat.shape[1]
@@ -18,8 +18,7 @@ class Carrier:
         carrier_image = Image.new('RGB', (self.width, self.height))
         for row in range(self.height):
             for col in range(self.width):
-                print(row, col)
+                # print(row, col)
                 carrier_image.putpixel((col, row), tuple(self.mat[row][col]))
         carrier_image.save('OUT_' + self.name)
         carrier_image.show()
-        print('SAVED')

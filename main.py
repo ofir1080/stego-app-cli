@@ -3,7 +3,7 @@ from PIL import Image
 from Carrier import *
 from BitMsg import *
 from inject import *
-
+from extract import *
 
 if __name__ == "__main__":
     carrier_path = "/Users/ofir1080/PycharmProjects/StegoApp/images/test.png"
@@ -33,3 +33,11 @@ if __name__ == "__main__":
                  "nec tempus eros, vel porta erat.")
     inject(image, msg)
     image.create_image()
+
+    print('SAVED')
+
+    # extract message
+
+    image = Carrier("/Users/ofir1080/PycharmProjects/StegoApp/OUT_test.png")
+    print(extract_msg(image, msg.size))
+
