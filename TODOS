@@ -10,3 +10,11 @@
 - take an image
 - for every pixel take the LSB to an array
 - convert array of bits to a text file
+
+
+
+-> EXTRACT <-
+for a given image and and message length
+- create Carrier obj
+- extract all LSBs into an np.array
+-

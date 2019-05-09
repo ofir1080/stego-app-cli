@@ -1,7 +1,7 @@
-#
-# def convert_str_to_bin(msg):
-#     binary_list = [bin(ord(c))[2:] for c in msg]
-#     return ''.join(binary_list)
+"""
+injects message into the carrier matrix represents the image.
+"""
+import numpy as np
 
 
 def inject(carrier, msg):
@@ -11,12 +11,13 @@ def inject(carrier, msg):
             if bit_counter >= msg.size:
                 # run as long as there are bits to inject
                 return
-            print(carrier.mat[row][col])
             carrier.mat[row][col] = set_pixel(carrier.mat[row][col], msg.bit_list[bit_counter:bit_counter + 3])
             bit_counter += 3
 
 
 def set_pixel(pixel, bits):
-    # new_pixel = (pixel[:bits.size] & 0b01111111) | (bits << 7)    # uncomment to set MSBs
-    new_pixel = (pixel[:bits.size] & 0b11111110) | bits
+    while bits.size < 3:
+        bits = np.append(bits, 1)
+    new_pixel = (pixel & 0b11111110) | bits
+    # new_pixel = (pixel & 0b01111111) | bits << 7  # uncomment for setting MSBs
     return new_pixel
