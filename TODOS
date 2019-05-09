@@ -17,4 +17,7 @@
 for a given image and and message length
 - create Carrier obj
 - extract all LSBs into an np.array
--
+- divide into 8-bit words
+- convert to decimal
+- convert to char
+- convert to string
