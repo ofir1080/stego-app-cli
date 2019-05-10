@@ -25,11 +25,15 @@ def extract_op():
 
 if __name__ == "__main__":
     print("Please select:\n\t1. inject\n\t2. extract")
-    action = input()
-    if action == '1':
-        inject_op()
-    if action == '2':
-        extract_op()
+    action = ''
+    while True:
+        action = input()
+        if action == '1':
+            inject_op()
+        if action == '2':
+            extract_op()
+        print("Invalid input. Please try again.")
+
 
 """
 message example (loerm ipsum)
