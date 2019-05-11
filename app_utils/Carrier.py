@@ -11,6 +11,7 @@ class Carrier:
             print("Image fromat error\nexitting...")
             sys.exit(1)
         self.name = os.path.basename(image_path)
+        self.path = os.path.dirname(image_path)
         try:
             image = Image.open(image_path)
         except FileNotFoundError:
@@ -27,5 +28,5 @@ class Carrier:
             for col in range(self.width):
                 # print(row, col)
                 carrier_image.putpixel((col, row), tuple(self.mat[row][col]))
-        carrier_image.save('images/OUT_' + self.name)
+        carrier_image.save(os.path.dirname(self.path) + '/OUT_' + self.name)
         carrier_image.show()

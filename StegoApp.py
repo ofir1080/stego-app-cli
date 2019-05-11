@@ -12,7 +12,7 @@ def inject_op():
     msg = BitMsg(input() + 'ÿ')
     inject(carrier, msg)
     carrier.create_image()
-    print("\nImage saved at ./images")
+    print("\n==> Image saved at source directory <==")
 
 
 def extract_op():
@@ -30,9 +30,12 @@ if __name__ == "__main__":
         action = input()
         if action == '1':
             inject_op()
-        if action == '2':
+            sys.exit(0)
+        elif action == '2':
             extract_op()
-        print("Invalid input. Please try again.")
+            sys.exit(0)
+        else:
+            print("Invalid input. Please try again.")
 
 
 """
