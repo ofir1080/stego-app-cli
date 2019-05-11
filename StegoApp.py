@@ -12,7 +12,7 @@ def inject_op():
     msg = BitMsg(input() + 'ÿ')
     inject(carrier, msg)
     carrier.create_image()
-    print("\n==> Image saved at source directory <==")
+    print("\n==> Image saved in current directory <==")
 
 
 def extract_op():

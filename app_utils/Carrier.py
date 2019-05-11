@@ -28,5 +28,6 @@ class Carrier:
             for col in range(self.width):
                 # print(row, col)
                 carrier_image.putpixel((col, row), tuple(self.mat[row][col]))
-        carrier_image.save(self.path + '/OUT_' + self.name)
+        print(self.path + '/OUT_' + self.name)
+        carrier_image.save('./OUT_' + self.name)
         # carrier_image.show()
