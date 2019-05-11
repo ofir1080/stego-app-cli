@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ed12b11-fdfd-466f-beee-5f2af10c2927" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/StegoApp.py" beforeDir="false" afterPath="$PROJECT_DIR$/StegoApp.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app_utils/Carrier.py" beforeDir="false" afterPath="$PROJECT_DIR$/app_utils/Carrier.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -57,8 +56,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app_utils/Carrier.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="48" lean-forward="true" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
+            <state relative-caret-position="450">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -91,8 +90,8 @@
         <option value="$PROJECT_DIR$/Carrier.py" />
         <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/modules/extract.py" />
-        <option value="$PROJECT_DIR$/app_utils/Carrier.py" />
         <option value="$PROJECT_DIR$/StegoApp.py" />
+        <option value="$PROJECT_DIR$/app_utils/Carrier.py" />
       </list>
     </option>
   </component>
@@ -284,23 +283,23 @@
       <workItem from="1557517392254" duration="6000" />
       <workItem from="1557520331052" duration="8307000" />
       <workItem from="1557572000046" duration="823000" />
-      <workItem from="1557573425447" duration="866000" />
+      <workItem from="1557573425447" duration="1041000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38464000" />
+    <option name="totallyTimeSpent" value="38639000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="960" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.114774115" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.114774115" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32949308" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32949308" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32949308" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -396,8 +395,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app_utils/Carrier.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="48" lean-forward="true" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
+        <state relative-caret-position="450">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
