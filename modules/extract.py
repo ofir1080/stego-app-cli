@@ -1,8 +1,6 @@
 """
-the module extract the message from a given image (of type carrier) and
-length of the message in bits (k * 8 where k is the number of characters.
+the module extract the message from a given image (of type carrier)
 """
-import numpy as np
 
 
 def extract_msg(carrier):

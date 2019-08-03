@@ -24,7 +24,7 @@ def extract_op():
 
 
 if __name__ == "__main__":
-    print("Please select:\n\t1. inject\n\t2. extract")
+    print("Please select:\n\t1. inject\n\t2. extract\n\t3. exit")
     action = ''
     while True:
         action = input()
@@ -33,6 +33,9 @@ if __name__ == "__main__":
             sys.exit(0)
         elif action == '2':
             extract_op()
+            sys.exit(0)
+        elif action == '3':
+            print('exitting...')
             sys.exit(0)
         else:
             print("Invalid input. Please try again.")
